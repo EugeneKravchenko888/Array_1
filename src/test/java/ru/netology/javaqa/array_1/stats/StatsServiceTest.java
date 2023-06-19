@@ -56,7 +56,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    void lessAvergSales() {
+    void lessAvergSales() { //продажи ниже среднего
         StatsService service = new StatsService();
 
         int expected = 7; //ожидаемый результат
@@ -70,7 +70,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    void aboveAvergSales() {
+    void aboveAvergSales() { //продажи выше среднего
         StatsService service = new StatsService();
 
         int expected = 7;
